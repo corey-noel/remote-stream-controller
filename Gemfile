@@ -1,5 +1,5 @@
 source "https://rubygems.org"
 ruby "2.4.4"
 gem "minitest"
-gem "minitest"
+gem "simplecov"
 gem "sinatra"

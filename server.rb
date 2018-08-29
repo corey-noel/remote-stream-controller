@@ -1,5 +1,10 @@
 require 'sinatra'
 
 get '/' do
-  "test"
+  erb :test
 end
+
+post '/update' do
+  puts request.body.read
+end
+
