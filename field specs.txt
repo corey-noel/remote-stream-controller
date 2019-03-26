@@ -1,0 +1,35 @@
+input fields
+  player name
+  player sponsor
+  player score
+
+output fields
+  player name
+
+Direct mapping (default)
+Custom mapping (javascript function attribute)
+overlay-classes
+
+<text label="label" overlay-classes="adsf sdfg dfgh" />
+
+==form and overlay==
+* default
+* automatically makes an output overlay object
+layout file: <number label="Player 1 score" name="player_1_score" overlay-classes="score left-column" min="0" max="99" />
+form:
+overlay:
+
+==just form==
+layout file:
+form:
+
+==just overlay
+layout file:
+overlay:
+
+==linked form and overlay==
+layout file 1:
+layout file 2:
+layout file 3:
+overlay:
+form:
